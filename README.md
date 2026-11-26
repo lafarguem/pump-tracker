@@ -1,20 +1,21 @@
 # Pump Tracker
 
-Native Android app to log daily push-ups, pull-ups and squats, with a home-screen widget.
+Android app to track daily push-ups, pull-ups and squats.
 
-- **Today**: one-tap `+N` buttons per exercise, a custom amount, undo, and a log of the day's entries.
-- **Stats**: per-exercise bar chart over the last 7 days, 30 days or 12 months (tap a bar for its value), plus daily average, current streak, best day and all-time total.
-- **Widget** (4×3): today's totals with quick-add buttons; tapping a total opens the app.
+- **Today**: one-tap `+N` buttons, custom amounts, undo.
+- **Stats**: charts over the last week, month or year, plus average, streak and best day.
+- **Widget**: today's totals with quick-add buttons on the home screen.
 
-Kotlin, Jetpack Compose, Room, Glance. Data stays on the device.
+Built with Kotlin, Jetpack Compose, Room and Glance. Data stays on the device.
 
 ## Build
 
-Requires JDK 17 and the Android SDK (`sdk.dir` in `local.properties`, or `ANDROID_HOME`).
+Requires JDK 17 and the Android SDK.
 
 ```sh
-./gradlew installDebug        # build and install on a connected device
-./gradlew testDebugUnitTest   # unit tests
+./gradlew installDebug
 ```
 
-The quick-add amounts are defined per exercise in `app/src/main/java/com/lafarguem/pumptracker/data/Exercise.kt`.
+## License
+
+[MIT](LICENSE)
