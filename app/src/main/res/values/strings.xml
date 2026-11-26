@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Pump Tracker</string>
+    <string name="push_ups">Push-ups</string>
+    <string name="pull_ups">Pull-ups</string>
+    <string name="squats">Squats</string>
+    <string name="widget_description">Today\'s push-ups, pull-ups and squats, with quick-add buttons</string>
+</resources>
